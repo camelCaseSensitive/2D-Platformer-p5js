@@ -1,10 +1,12 @@
 html, body {
     margin: 0;
     padding: 0;
+    background: pink;
   }
   canvas {
     display: block;
     /* scale: 2;
     transform: translate(200px, 100px) */
   }
+
   
