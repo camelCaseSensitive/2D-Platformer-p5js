@@ -17,112 +17,113 @@ function rectangle(x, y, w, h){
 
 function preload() {
   attack1 = [
-    loadImage("/sprites/Individual Sprites/adventurer-attack1-00.png"),
-    loadImage("/sprites/Individual Sprites/adventurer-attack1-01.png"),
-    loadImage("/sprites/Individual Sprites/adventurer-attack1-02.png"),
-    loadImage("/sprites/Individual Sprites/adventurer-attack1-03.png"),
-    loadImage("/sprites/Individual Sprites/adventurer-attack1-04.png")
+    loadImage("sprites/individual_sprites/adventurer-attack1-00.png"),
+    loadImage("sprites/individual_sprites/adventurer-attack1-01.png"),
+    loadImage("sprites/individual_sprites/adventurer-attack1-02.png"),
+    loadImage("sprites/individual_sprites/adventurer-attack1-03.png"),
+    loadImage("sprites/individual_sprites/adventurer-attack1-04.png")
   ];
   attack2 = [
-    loadImage("/sprites/Individual Sprites/adventurer-attack2-00.png"),
-    loadImage("/sprites/Individual Sprites/adventurer-attack2-01.png"),
-    loadImage("/sprites/Individual Sprites/adventurer-attack2-02.png"),
-    loadImage("/sprites/Individual Sprites/adventurer-attack2-03.png"),
-    loadImage("/sprites/Individual Sprites/adventurer-attack2-04.png"),
-    loadImage("/sprites/Individual Sprites/adventurer-attack2-05.png")
+    loadImage("sprites/individual_sprites/adventurer-attack2-00.png"),
+    loadImage("sprites/individual_sprites/adventurer-attack2-01.png"),
+    loadImage("sprites/individual_sprites/adventurer-attack2-02.png"),
+    loadImage("sprites/individual_sprites/adventurer-attack2-03.png"),
+    loadImage("sprites/individual_sprites/adventurer-attack2-04.png"),
+    loadImage("sprites/individual_sprites/adventurer-attack2-05.png")
   ];
   attack3 = [
-    loadImage("/sprites/Individual Sprites/adventurer-attack3-00.png"),
-    loadImage("/sprites/Individual Sprites/adventurer-attack3-01.png"),
-    loadImage("/sprites/Individual Sprites/adventurer-attack3-02.png"),
-    loadImage("/sprites/Individual Sprites/adventurer-attack3-03.png"),
-    loadImage("/sprites/Individual Sprites/adventurer-attack3-04.png"),
-    loadImage("/sprites/Individual Sprites/adventurer-attack3-05.png")
+    loadImage("sprites/individual_sprites/adventurer-attack3-00.png"),
+    loadImage("sprites/individual_sprites/adventurer-attack3-01.png"),
+    loadImage("sprites/individual_sprites/adventurer-attack3-02.png"),
+    loadImage("sprites/individual_sprites/adventurer-attack3-03.png"),
+    loadImage("sprites/individual_sprites/adventurer-attack3-04.png"),
+    loadImage("sprites/individual_sprites/adventurer-attack3-05.png")
   ];
   ledgeclimb = [
-    loadImage("/sprites/Individual Sprites/adventurer-crnr-clmb-00.png"),
-    loadImage("/sprites/Individual Sprites/adventurer-crnr-clmb-01.png"),
-    loadImage("/sprites/Individual Sprites/adventurer-crnr-clmb-02.png"),
-    loadImage("/sprites/Individual Sprites/adventurer-crnr-clmb-03.png"),
-    loadImage("/sprites/Individual Sprites/adventurer-crnr-clmb-04.png"),
+    loadImage("sprites/individual_sprites/adventurer-crnr-clmb-00.png"),
+    loadImage("sprites/individual_sprites/adventurer-crnr-clmb-01.png"),
+    loadImage("sprites/individual_sprites/adventurer-crnr-clmb-02.png"),
+    loadImage("sprites/individual_sprites/adventurer-crnr-clmb-03.png"),
+    loadImage("sprites/individual_sprites/adventurer-crnr-clmb-04.png"),
   ];
   ledgegrab = [
-    loadImage("/sprites/Individual Sprites/adventurer-crnr-grb-00.png"),
-    loadImage("/sprites/Individual Sprites/adventurer-crnr-grb-01.png"),
-    loadImage("/sprites/Individual Sprites/adventurer-crnr-grb-02.png"),
-    loadImage("/sprites/Individual Sprites/adventurer-crnr-grb-03.png")
+    loadImage("sprites/individual_sprites/adventurer-crnr-grb-00.png"),
+    loadImage("sprites/individual_sprites/adventurer-crnr-grb-01.png"),
+    loadImage("sprites/individual_sprites/adventurer-crnr-grb-02.png"),
+    loadImage("sprites/individual_sprites/adventurer-crnr-grb-03.png")
   ];
   ledgejump = [
-    loadImage("/sprites/Individual Sprites/adventurer-crnr-jmp-00.png"),
-    loadImage("/sprites/Individual Sprites/adventurer-crnr-jmp-01.png"),
-    loadImage("/sprites/Individual Sprites/adventurer-crnr-jmp-02.png")
+    loadImage("sprites/individual_sprites/adventurer-crnr-jmp-00.png"),
+    loadImage("sprites/individual_sprites/adventurer-crnr-jmp-01.png"),
+    loadImage("sprites/individual_sprites/adventurer-crnr-jmp-02.png")
   ];
   crouch = [
-    loadImage("/sprites/Individual Sprites/adventurer-crouch-00.png"),
-    loadImage("/sprites/Individual Sprites/adventurer-crouch-01.png"),
-    loadImage("/sprites/Individual Sprites/adventurer-crouch-02.png"),
-    loadImage("/sprites/Individual Sprites/adventurer-crouch-03.png")
+    loadImage("sprites/individual_sprites/adventurer-crouch-00.png"),
+    loadImage("sprites/individual_sprites/adventurer-crouch-01.png"),
+    loadImage("sprites/individual_sprites/adventurer-crouch-02.png"),
+    loadImage("sprites/individual_sprites/adventurer-crouch-03.png")
   ];
   die = [
-    loadImage("/sprites/Individual Sprites/adventurer-die-00.png"),
-    loadImage("/sprites/Individual Sprites/adventurer-die-01.png"),
-    loadImage("/sprites/Individual Sprites/adventurer-die-02.png"),
-    loadImage("/sprites/Individual Sprites/adventurer-die-03.png"),
-    loadImage("/sprites/Individual Sprites/adventurer-die-04.png"),
-    loadImage("/sprites/Individual Sprites/adventurer-die-05.png"),
-    loadImage("/sprites/Individual Sprites/adventurer-die-06.png")
+    loadImage("sprites/individual_sprites/adventurer-die-00.png"),
+    loadImage("sprites/individual_sprites/adventurer-die-01.png"),
+    loadImage("sprites/individual_sprites/adventurer-die-02.png"),
+    loadImage("sprites/individual_sprites/adventurer-die-03.png"),
+    loadImage("sprites/individual_sprites/adventurer-die-04.png"),
+    loadImage("sprites/individual_sprites/adventurer-die-05.png"),
+    loadImage("sprites/individual_sprites/adventurer-die-06.png")
   ];
   fall = [
-    loadImage("/sprites/Individual Sprites/adventurer-fall-00.png"),
-    loadImage("/sprites/Individual Sprites/adventurer-fall-01.png")
+    loadImage("sprites/individual_sprites/adventurer-fall-00.png"),
+    loadImage("sprites/individual_sprites/adventurer-fall-01.png")
   ];
   hurt = [
-    loadImage("/sprites/Individual Sprites/adventurer-hurt-00.png"),
-    loadImage("/sprites/Individual Sprites/adventurer-hurt-01.png"),
-    loadImage("/sprites/Individual Sprites/adventurer-hurt-02.png")
+    loadImage("sprites/individual_sprites/adventurer-hurt-00.png"),
+    loadImage("sprites/individual_sprites/adventurer-hurt-01.png"),
+    loadImage("sprites/individual_sprites/adventurer-hurt-02.png")
   ];
   idle = [
-    loadImage("/sprites/Individual Sprites/adventurer-idle-00.png"),
-    loadImage("/sprites/Individual Sprites/adventurer-idle-01.png"),
-    loadImage("/sprites/Individual Sprites/adventurer-idle-02.png"),
-    loadImage("/sprites/Individual Sprites/adventurer-idle-03.png")
+    loadImage("sprites/individual_sprites/adventurer-idle-00.png"),
+    loadImage("sprites/individual_sprites/adventurer-idle-01.png"),
+    loadImage("sprites/individual_sprites/adventurer-idle-02.png"),
+    loadImage("sprites/individual_sprites/adventurer-idle-03.png")
   ];
   idleSword = [
-    loadImage("/sprites/Individual Sprites/adventurer-idle-2-00.png"),
-    loadImage("/sprites/Individual Sprites/adventurer-idle-2-01.png"),
-    loadImage("/sprites/Individual Sprites/adventurer-idle-2-02.png"),
-    loadImage("/sprites/Individual Sprites/adventurer-idle-2-03.png")
+    loadImage("sprites/individual_sprites/adventurer-idle-2-00.png"),
+    loadImage("sprites/individual_sprites/adventurer-idle-2-01.png"),
+    loadImage("sprites/individual_sprites/adventurer-idle-2-02.png"),
+    loadImage("sprites/individual_sprites/adventurer-idle-2-03.png")
   ];
   jump = [
-    loadImage("/sprites/Individual Sprites/adventurer-jump-00.png"),
-    loadImage("/sprites/Individual Sprites/adventurer-jump-01.png"),
-    loadImage("/sprites/Individual Sprites/adventurer-jump-02.png"),
-    loadImage("/sprites/Individual Sprites/adventurer-jump-03.png")
+    loadImage("sprites/individual_sprites/adventurer-jump-00.png"),
+    loadImage("sprites/individual_sprites/adventurer-jump-01.png"),
+    loadImage("sprites/individual_sprites/adventurer-jump-02.png"),
+    loadImage("sprites/individual_sprites/adventurer-jump-03.png")
   ];
   run = [
-    loadImage("/sprites/Individual Sprites/adventurer-run-00.png"),
-    loadImage("/sprites/Individual Sprites/adventurer-run-01.png"),
-    loadImage("/sprites/Individual Sprites/adventurer-run-02.png"),
-    loadImage("/sprites/Individual Sprites/adventurer-run-03.png"),
-    loadImage("/sprites/Individual Sprites/adventurer-run-04.png"),
-    loadImage("/sprites/Individual Sprites/adventurer-run-05.png")
+    loadImage("sprites/individual_sprites/adventurer-run-00.png"),
+    loadImage("sprites/individual_sprites/adventurer-run-01.png"),
+    loadImage("sprites/individual_sprites/adventurer-run-02.png"),
+    loadImage("sprites/individual_sprites/adventurer-run-03.png"),
+    loadImage("sprites/individual_sprites/adventurer-run-04.png"),
+    loadImage("sprites/individual_sprites/adventurer-run-05.png")
   ];
   slide = [
-    loadImage("/sprites/Individual Sprites/adventurer-slide-00.png"),
-    loadImage("/sprites/Individual Sprites/adventurer-slide-01.png")
+    loadImage("sprites/individual_sprites/adventurer-slide-00.png"),
+    loadImage("sprites/individual_sprites/adventurer-slide-01.png")
   ];
   roll = [
-    loadImage("/sprites/Individual Sprites/adventurer-smrslt-00.png"),
-    loadImage("/sprites/Individual Sprites/adventurer-smrslt-01.png"),
-    loadImage("/sprites/Individual Sprites/adventurer-smrslt-02.png"),
-    loadImage("/sprites/Individual Sprites/adventurer-smrslt-03.png")
+    loadImage("sprites/individual_sprites/adventurer-smrslt-00.png"),
+    loadImage("sprites/individual_sprites/adventurer-smrslt-01.png"),
+    loadImage("sprites/individual_sprites/adventurer-smrslt-02.png"),
+    loadImage("sprites/individual_sprites/adventurer-smrslt-03.png")
   ];
   endslide = [
-    loadImage("/sprites/Individual Sprites/adventurer-stand-00.png"),
-    loadImage("/sprites/Individual Sprites/adventurer-stand-01.png"),
-    loadImage("/sprites/Individual Sprites/adventurer-stand-02.png")
+    loadImage("sprites/individual_sprites/adventurer-stand-00.png"),
+    loadImage("sprites/individual_sprites/adventurer-stand-01.png"),
+    loadImage("sprites/individual_sprites/adventurer-stand-02.png")
   ];
 }
+
 
 let jumpPressed = false;
 
@@ -465,4 +466,5 @@ function rectCollision(r1, r2){
     // No collision
     return false
   }
+
 }
